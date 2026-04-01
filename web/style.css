@@ -62,3 +62,23 @@ tr:hover {
     cursor: pointer;
     font-size: 22px;
 }
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.stats-header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
