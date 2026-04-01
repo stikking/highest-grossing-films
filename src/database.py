@@ -62,7 +62,7 @@ def main():
     create_table(conn)
     insert_films(conn, films)
     conn.close()
-    print(f"Вставлено {len(films)} фильмов в базу PostgreSQL.")
+    print(f"Inserted {len(films)} films into PostgreSQL.")
 
 
 if __name__ == "__main__":

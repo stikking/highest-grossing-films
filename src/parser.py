@@ -39,7 +39,7 @@ for t in tables:
         break
 
 if table is None:
-    print("Нужная таблица не найдена")
+    print("Table not found")
     exit()
 
 rows = table.find_all("tr")
