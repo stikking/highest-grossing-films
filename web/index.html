@@ -10,23 +10,32 @@
 
 <h1>Highest Grossing Films</h1>
 
-<input type="text" id="search" placeholder="Search film...">
+<div class="container">
+    <div class="left-column">
+        <input type="text" id="search" placeholder="Search film...">
 
-<table>
-    <thead>
-    <tr>
-        <th>Title</th>
-        <th>Year</th>
-        <th>Director</th>
-        <th>Box Office</th>
-        <th>Country</th>
-    </tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-</table>
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Director</th>
+                <th>Box Office</th>
+                <th>Country</th>
+            </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
 
-<h2>Number of Top Films per Year</h2>
-<canvas id="filmsChart" width="600" height="300"></canvas>
+    <div class="right-column">
+        <div class="stats-header">
+            <h2>Statistics</h2>
+        </div>
+        <canvas id="filmsChart" width="400" height="200"></canvas>
+        <canvas id="revenueChart" width="400" height="200"></canvas>
+    </div>
+</div>
 
 <div id="modal" class="modal">
     <div class="modal-content">
