@@ -22,4 +22,4 @@ This project extracts data from Wikipedia(Highest Grossing Films Project), store
 5. python src/export_json.py
 6. cd web
 7. python -m http.server 8000
-8. open http://localhost:8000 in brauser
+8. open http://localhost:8000 in browser
